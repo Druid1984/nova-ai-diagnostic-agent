@@ -1,0 +1,19 @@
+{
+  "name": "ai-diagnostic-agent",
+  "version": "1.0.0",
+  "description": "AI Diagnostic Agent CLI",
+  "main": "index.js",
+  "bin": {
+    "ai-diagnostic-agent": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ai-diagnostic-agent": "file:",
+    "chokidar": "^3.5.3",
+    "commander": "^9.4.0",
+    "dotenv": "^16.0.3",
+    "openai": "^4.56.0"
+  }
+}

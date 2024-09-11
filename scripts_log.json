@@ -1,0 +1,34 @@
+{
+  "scripts": [
+    {
+      "name": "Original Script",
+      "purpose": "Run the original AI Diagnostic Agent script",
+      "script": "agent.js"
+    },
+    {
+      "name": "Syntax Errors",
+      "purpose": "Check for syntax errors in the code",
+      "script": "syntax_errors.js"
+    },
+    {
+      "name": "Security Vulnerabilities",
+      "purpose": "Check for security vulnerabilities in the code",
+      "script": "security_vulnerabilities.js"
+    },
+    {
+      "name": "Self-Automated Diagnostic Checks",
+      "purpose": "Run self-automated diagnostic checks on the code",
+      "script": "diagnostic_checks.js"
+    },
+    {
+      "name": "Testing",
+      "purpose": "Run tests on the code",
+      "script": "tests.js"
+    },
+    {
+      "name": "Debugging",
+      "purpose": "Run the debugging AI Diagnostic Agent script",
+      "script": "debugging_tests.js"
+    }
+  ]
+}
